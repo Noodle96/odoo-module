@@ -4,7 +4,7 @@
 
 ### Instalación local en linux
 
-1. Descargar el software desde el [Repositorio](https://github.com/eluqm/IS-3group6)change
+1. Descargar el software desde el [Repositorio](https://github.com/Noodle96/odoo-module)
 2. Instalar el software en una carpeta local
 3. Crear entorno virtual con la herramienta [virtualenv](https://virtualenv.pypa.io/en/latest/)
 4. Activar el entorno virtual con la herramienta [activate](https://virtualenv.pypa.io/en/latest/userguide/getting-started.html)
