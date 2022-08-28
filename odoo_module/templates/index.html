@@ -7,10 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>This is a test</h2>
-    {% for element in product_taxes_rel %}
-        <p>{{element.prod_id}}</p>
-        <p>{{element.tax_id}}</p>
-    {%endfor%}
+
+
+
+    <table style="padding:50px ;">
+        <tr>
+          <td>Producto</td>
+          <td>Comportamiento venta</td>
+          <td>Comportamiento venta - prediccion</td>
+        </tr>
+        {% for key,value in product.items() %}
+        <tr>
+            <td>{{key}}</td>
+            <td><img src="{{url_for('principal.displayImage',filename=key)}}" width="700" alt="image of post"></td>
+            <td><img src="{{url_for('principal.displayImage',filename=value)}}" width="700" alt="image of post"></td>
+        </tr>
+        {% endfor %}
+      </table>
 </body>
 </html>
